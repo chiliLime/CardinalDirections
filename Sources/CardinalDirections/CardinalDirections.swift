@@ -12,7 +12,7 @@ class CardinalDirections {
     
     ///Returns abbreviated cardinal direction for heading
     ///ex: N, S, E, W (4 possible)
-    class func cardinalDirection (forHeading heading:CLLocationDirection) -> String {
+    static func cardinalDirection (forHeading heading:CLLocationDirection) -> String {
         switch heading {
         case 0 ..< 45:
             return "N"
@@ -31,7 +31,7 @@ class CardinalDirections {
     
     ///Returns abbreviated intercardinal direction for headng
     ///ex: NW, SE (8 possible)
-    class func intercardinalDirection (forHeading heading:CLLocationDirection) -> String {
+    static func intercardinalDirection (forHeading heading:CLLocationDirection) -> String {
         switch heading {
         case 0 ..< 22.5:
             return "N"
@@ -58,7 +58,7 @@ class CardinalDirections {
     
     ///Returns abbreviated secondary intercardinal direction for headng
     ///ex: NNW, ESE (16 possible)
-    class func secIntercardinalDirection (forHeading heading:CLLocationDirection) -> String {
+    static func secIntercardinalDirection (forHeading heading:CLLocationDirection) -> String {
         switch heading {
         case 0 ..< 11.25:
             return "N"
