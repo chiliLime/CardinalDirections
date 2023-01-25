@@ -1,5 +1,7 @@
 # CardinalDirections
 
+v 1.1.0
+
 This is a simple Swift package to return cardinal direction strings for headings.
 
 Three levels are granularity are supported:
