@@ -29,7 +29,7 @@ class OrdinalDirections {
         }
     }
     
-    ///Returns abbreviated intercardinal/ordinal direction for headng
+    ///Returns abbreviated intercardinal direction for headng
     ///ex: NW, SE (8 possible)
     func intercardinalDirection (forHeading heading:CLLocationDirection) -> String {
         switch heading {
