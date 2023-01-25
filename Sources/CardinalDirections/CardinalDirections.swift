@@ -8,7 +8,7 @@
 import Foundation
 import CoreLocation
 
-class OrdinalDirections {
+class CardinalDirections {
     
     ///Returns abbreviated cardinal direction for heading
     ///ex: N, S, E, W (4 possible)
