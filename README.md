@@ -1,7 +1,7 @@
 # CardinalDirections
 
 ## Description
-This Swift package provides functionality for determining cardinal, inter-cardinal, and secondary inter-cardinal directions based on a given direction. The package can be added to Xcode via Swift Package Manager.
+This Swift package provides functionality for determining cardinal, inter-cardinal, and secondary inter-cardinal directions based on a given compass heading/direction/azimuth.
 
 Three levels are granularity are supported:
 1. Cardinal
@@ -13,6 +13,8 @@ Three levels are granularity are supported:
 3. Secondary intercardinal
    - 16 secondary intercardinal directions
    - ex: N, NNE, NE, ENE, etc.
+
+The package can be added to Xcode projects via Swift Package Manager.
 
 ## Installation
 To add CardinalDirections to your Xcode project, follow these steps:
